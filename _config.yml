@@ -35,62 +35,65 @@ author:
       duration: (2013 - Now)
       projects:
         - project1:
-          name: 统一发布平台 
-          description: 统一各个终端的发布流程以及模板制作的接口，统一数据接口服务发现。
+          name: Uniform Publishing Platform 
+          description: Using the uniform publish interface for all kinds of clients, and there is a data discovery interface.
         - project2:
-          name: 会员系统架构升级 
-          description: 在会员业务出现瓶颈后，优化会员系统架构。数据库分表分库、降低事物粒度优化性能。通过分拆服务接口，通过微服务的方式提高业务灵活性。增强系统及业务层面的监控及报警。
+          name: Upgrade VIP System
+          description: Optimize the VIP system architecture. Slice the databases and tables. Using the micro-service to improve the flexibility. Enhance the system monitor and warning.
         - project3:
-          name: 智能运营系统 
-          description: 通过机器学习进行自动化分类、生成推荐标签。简化编辑工作流程，提高生成效率。 
+          name: Smart Operation System
+          description: The original operation system of iqiyi.com uses manual editing mode. It was inefficient, but the new smart operation system cat improve editor’s efficiency by intelligent video analysis and machine learning. 
         - project4:
-          name: 页面发布系统 
-          description: 后台动态动态生成，页面内容需要调用多个内部接口，通过多线程并发调用提高性能。
+          name: Pages Compile System
+          description: The web pages in iqiyi.com publishing needs to be compiled into static pages to let users quickly access. The original system had the low performance, and couldn’t use the resource effectively. Upgrading the system architecture, using multiple queues to improve performance and resource utilization.
+        - project5:
+          name: Pages Publishing System
+          description: iqiyi.com UGC(User Generate Content) uses pseudo-static pages, dynamically generated pages in the background, generating a fixed URL by URL rewrite when the page is displayed. Page content generating need to call multiple internal interfaces, using a multi-threaded concurrent framework which implemented myself to improve performance.
     - work2:
       company: IBM
       department: China Development Lab (CDL)
       section: Information Management
-      location: 北京
-      title: 软件工程师
+      location: Beijing
+      title: Software Engineer
       started: 2005
       duration: (2005 - 2013)
       description: 
       projects:
         - project1:
           name: IBM Data Studio
-          description: 一个基于eclipse的集成化数据库管理解决方案。
+          description: IBM Data Studio provides an integrated, modular environment for database development and administration of IBM DB2 for Linux, UNIX and Windows. It also offers collaborative database development tools for IBM DB2 for z/OS, IBM DB2 for i, and IBM Informix. This software is available at no charge. IBM Data Studio enables developers and administrators to create and manage heterogeneous database environments for increased productivity.
         - project2:
           name: IBM Smart Analytics System
-          description: IBM的数据挖掘的整体解决方案
+          description: The IBM Smart Analytics System is an integrated platform that provides broad analytics capabilities on a powerful warehouse foundation with IBM server and storage. Deeply integrated and optimized, IBM Smart Analytics System provides a single point of support for end-to-end analytics solutions.
         - project3:
           name: IBM PureApplication System
-          description: IBM一款专门针对事务型web和数据库应用程序而设计的平台系统，Bluemix前身。
+          description: Cloud application deployment normally requires scripting and configuring the tasks to deploy and manage an application, its environment and the underlying infrastructure. IBM® PureApplication® simplifies and automates this process for both on-premises and off-premises cloud options.
         - project3:
           name: Optim Query Tuner
-          description: 一款数据库查询优化工具。
-        - project3:
+          description: Optim Query Tuner for DB2 for z/OS and Optim Query Tuner for DB2 for Linux, UNIX and Windows cuts cost and improves performance by providing expert advice on writing high quality queries and improving database design. It’s easy-to-use advisors can help developers to write more efficient SQL queries.
+        - project4:
           name: Optim Performance Manager
-          description: 通过Web界面来隔离并分析典型的数据库性能问题。查看数据库运行状况的摘要。
+          description: Optim Performance Manager provides a Web interface that you can use to isolate and analyze typical database performance problems. You can view a summary of the health of your databases and drill down for more details. It provides Preconfigured alerts, Health summary view of all monitored databases, Dashboards for drilling down to view specific types of problems for a database.
   educations:
     - education1:
-      organization: Peking University
-      school: 软件与微电子学院
-      degree: 硕士
-      major: 软件工程
+      organization: Peking University, China
+      school: School of Software and Microelectronics
+      degree: Master
+      major: Software Engineering
       started: 2004
       duration: (2004 - 2007)
       description: 
     - education2:
-      organization: 华中科技大学
-      school: 电气与电子工程学院
-      degree: 学士
-      major: 电气工程及其自动化
+      organization: Huazhong University of Science and Technology, China
+      school: Collage of Electrical and Electronic Engineering
+      degree: Bachelor
+      major: Electrical Engineering and Automation
       started: 1999
       duration: (1999 - 2003)
       description: 
   languages:
     - language1:
-      name: 中文
+      name: Chinese
       proficiency: Native
     - language2:
       name: English
@@ -115,60 +118,60 @@ author:
     - skill5:
       name: C/C++
       percentage: 60%
-      description: 配合GPU编程使用，作为CUDA和OpenCL宿主语言，没有太深入。熟悉Linux下gcc的使用和编译过程，能写简单的makefile和CMake。也有过使用OpenCV和ffmpeg的经验。
+      description: Used in GPU programming as host language. Known about GNU gcc compiling. Writing Makefile and CMake. Some experience about OpenCV and ffmpeg.
     - skill6:
       name: Python
       percentage: 70%
-      description: 主要用来写系统配置脚本和作为数据分析工具，常见API能熟练使用，细节还需要借助文档。
+      description: Used as system script and data analytic tools. Familiar with common API, but need to read documentation for details.
     - skill7:
       name: Ruby
       percentage: 50%
-      description: 配合Vagrant、Chef和Puppet写配置脚本。有过Rails的使用经验。
+      description: Used in Vagrant, Chef and Puppet configuration script. Some experience in Rails.
     - skill8:
       name: Scala
       percentage: 50%
-      description: 主要配合Spark使用，了解语法、常见API，和函数式编程模型。
+      description: Used in Spark. Known about common API and language grammar. Functional programming.
     - skill9:
       name: Groovy
       percentage: 40%
-      description: 主要用于在JVM内需要动态语言的场景下，有项目使用经验，但没有继续深入了解。
+      description: Used in some dynamic language scenario, just used in some project, didn't know the detail.
   developments:
     - skill1:
-      name: 数据可视化
+      name: Data Visualization
       percentage: 90%
-      description: 长期从事相关工作。拥有管理学背景，能根据商业模型分析数据模型并决定展示重点。能以需求为基本出发点，依靠自己的技术栈，从头至尾实现数据可视化。发表过两篇相关专利。
+      description: Rich experience on it. Have the management background, can summarize the data model by business model. Base on the requirement and using my technology stack to implement the data visualization form end to end.
     - skill2:
-      name: 机器学习
+      name: Machine Learning
       percentage: 70%
-      description: 熟悉常见机器学习算法，实现过朴素贝叶斯、线性回归、随机森林、kNN，能使用协同过滤、关联规则、SVM等算法。小规模使用过Caffe，正在学习TensorFlow。使用过Theano、Mahout、Spark ML。发表过两篇相关专利。
+      description: Familiar with the common algorithm, implemented the Naive Bayes, Linear Regression, Random Forest and kNN. Can using the Collaborative Filtering to build a recommender system. Used Theano, Caffe and learning TensorFlow and CNTK. Used Mahout and Spark ML in projects.
     - skill3:
-      name: 并行并发
+      name: Parallel and Concurrent
       percentage: 80%
-      description: 源于Java多线程，运用于GPU高性能计算。了解锁机制、函数式编程、Actor、GPU SIMD等并发、并行编程模型。发表过一篇相关专利。
+      description: Java concurrency, GPU SIMD, Functional programming and Actor pattern.
     - skill4:
       name: Hadoop
       percentage: 70%
-      description: 理解HDFS、编写MapReduce。配置Hadoop环境并调优参数，阅读过部分代码。实现过TeraSort。有使用HBase、Hive、Pig、Flume、Sqoop等的经验。
+      description: Known about HDFS, written the code about MapReduce. Configured Hadoop system and optimization, read parts of source code and implemented the TeraSort. Have some experience about HBase, Hive, Pig, Flume, Sqoop, etc.
     - skill5:
       name: Spark
       percentage: 60%
-      description: 理解RDD。配置Spark环境，阅读过部分代码。实现过TeraSort。常用MLlib模块，使用过Streaming模块，对SQL模块也有过接触。
+      description: Known about RDD. Configured Spark system, read parts if source code and implemented the TeraSort. Used MLlib module and Streaming module.
     - skill6:
       name: Mesos
       percentage: 40%
-      description: 安装配置，结合Spark使用。阅读过allocator部分代码。
+      description: Installation and configuration, used with Spark. Read the allocator part source code.
     - skill7:
       name: OpenStack
       percentage: 60%
-      description: 有小规模安装配置经验，做过Horizon的二次开发，阅读过部分代码。
+      description: Installation and configuration, enhance Horizon and read parts of source code.
     - skill8:
       name: Docker
       percentage: 70%
-      description: 有安装Kubernetes经验，目前开发环境全部基于Vagrant或Docker。熟练编写Dockerfile。
+      description: Have some experience about installing Kubernetes. Currently my personal development environment are all base on Vagrant or Docker. Written Dockerfile in docker hub.
     - skill9:
-      name: 数据库
+      name: Database
       percentage: 70%
-      description: 在IBM长期从事数据库相关工具的开发。MySQL、PostgreSQL、MongoDB等配置及简单调优。熟悉数据库建模，能掌握中等难度的SQL语句。
+      description: Have rich experience about database tools development in IBM. Configuration and optimization about MySQL, PostgreSQL and MongoDB.
   patents:
     - patent1:
       name: 数据处理方法及装置

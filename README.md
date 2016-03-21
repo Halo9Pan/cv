@@ -1,3 +1,3 @@
-# 中文在线简历
+# Online CV
 -------
 - [Fork](https://github.com/ddbullfrog/iCard-Resume/fork)
