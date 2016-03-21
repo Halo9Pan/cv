@@ -1,0 +1,207 @@
+# Site settings
+title: Halo9Pan
+description: Resume for HaloPan
+favicon: /assets/img/avatar.jpg
+baseurl:
+url: http://cv.halo9pan.info
+rss_url: /pages/atom.xml
+
+# Build settings
+markdown: kramdown
+
+# Author settings
+author:
+  name: Halo Pan
+  title: Data Painters, Cloud Artificer, Full-stack Programmer, Intelligent Practitioner......
+  address: Beijing
+  email: me@halo9pan.info
+  mail: halo9pan@hotmail.com
+  link: http://halo9pan.info
+  github: Halo9Pan
+  weibo: halo9pan
+  qq: 104349832
+  linkedin: Halo9Pan
+  twitter: Halo9Pan
+  facebook: Halo9Pan
+  gavatar: /assets/img/avatar.jpg
+  works:
+    - work1:
+      company: iQIYI.com
+      department: Technology and Product Center
+      section: Backend Development
+      location: Beijing
+      title: Data and System Architect
+      started: 2013
+      duration: (2013 - Now)
+      projects:
+        - project1:
+          name: 统一发布平台 
+          description: 统一各个终端的发布流程以及模板制作的接口，统一数据接口服务发现。
+        - project2:
+          name: 会员系统架构升级 
+          description: 在会员业务出现瓶颈后，优化会员系统架构。数据库分表分库、降低事物粒度优化性能。通过分拆服务接口，通过微服务的方式提高业务灵活性。增强系统及业务层面的监控及报警。
+        - project3:
+          name: 智能运营系统 
+          description: 通过机器学习进行自动化分类、生成推荐标签。简化编辑工作流程，提高生成效率。 
+        - project4:
+          name: 页面发布系统 
+          description: 后台动态动态生成，页面内容需要调用多个内部接口，通过多线程并发调用提高性能。
+    - work2:
+      company: IBM
+      department: China Development Lab (CDL)
+      section: Information Management
+      location: 北京
+      title: 软件工程师
+      started: 2005
+      duration: (2005 - 2013)
+      description: 
+      projects:
+        - project1:
+          name: IBM Data Studio
+          description: 一个基于eclipse的集成化数据库管理解决方案。
+        - project2:
+          name: IBM Smart Analytics System
+          description: IBM的数据挖掘的整体解决方案
+        - project3:
+          name: IBM PureApplication System
+          description: IBM一款专门针对事务型web和数据库应用程序而设计的平台系统，Bluemix前身。
+        - project3:
+          name: Optim Query Tuner
+          description: 一款数据库查询优化工具。
+        - project3:
+          name: Optim Performance Manager
+          description: 通过Web界面来隔离并分析典型的数据库性能问题。查看数据库运行状况的摘要。
+  educations:
+    - education1:
+      organization: Peking University
+      school: 软件与微电子学院
+      degree: 硕士
+      major: 软件工程
+      started: 2004
+      duration: (2004 - 2007)
+      description: 
+    - education2:
+      organization: 华中科技大学
+      school: 电气与电子工程学院
+      degree: 学士
+      major: 电气工程及其自动化
+      started: 1999
+      duration: (1999 - 2003)
+      description: 
+  languages:
+    - language1:
+      name: 中文
+      proficiency: Native
+    - language2:
+      name: English
+      proficiency: Professional
+  programmings:
+    - skill1:
+      name: Java
+      percentage: 80%
+      description: The first programming language in production. Familiar with JVM memory model and GC policy. Read the virtual machine specification and researched the concurrency and I/O parts. Rich experience in Java Web, and read parts of the Spring and Hibernate source code.
+    - skill2:
+      name: JavaScript 
+      percentage: 80%
+      description: The second programming language in production. Familiar with javascript native API but not the popular front-end framework. Known about how the web browser working. Could use the popular frameworks and libraries skillfully. Some experience about the Node.JS.
+    - skill3:
+      name: HTML, CSS
+      percentage: 70%
+      description: Used for data visualization, known about the basic HTML element's semantics and CSS selector, position, box model, transform, transition etc.
+    - skill4:
+      name: GPGPU - CUDA, OpenCL
+      percentage: 90%
+      description: Familiar with GPU programming model, basic interface and performance optimization. Experience in OpenCL is more than CUDA.
+    - skill5:
+      name: C/C++
+      percentage: 60%
+      description: 配合GPU编程使用，作为CUDA和OpenCL宿主语言，没有太深入。熟悉Linux下gcc的使用和编译过程，能写简单的makefile和CMake。也有过使用OpenCV和ffmpeg的经验。
+    - skill6:
+      name: Python
+      percentage: 70%
+      description: 主要用来写系统配置脚本和作为数据分析工具，常见API能熟练使用，细节还需要借助文档。
+    - skill7:
+      name: Ruby
+      percentage: 50%
+      description: 配合Vagrant、Chef和Puppet写配置脚本。有过Rails的使用经验。
+    - skill8:
+      name: Scala
+      percentage: 50%
+      description: 主要配合Spark使用，了解语法、常见API，和函数式编程模型。
+    - skill9:
+      name: Groovy
+      percentage: 40%
+      description: 主要用于在JVM内需要动态语言的场景下，有项目使用经验，但没有继续深入了解。
+  developments:
+    - skill1:
+      name: 数据可视化
+      percentage: 90%
+      description: 长期从事相关工作。拥有管理学背景，能根据商业模型分析数据模型并决定展示重点。能以需求为基本出发点，依靠自己的技术栈，从头至尾实现数据可视化。发表过两篇相关专利。
+    - skill2:
+      name: 机器学习
+      percentage: 70%
+      description: 熟悉常见机器学习算法，实现过朴素贝叶斯、线性回归、随机森林、kNN，能使用协同过滤、关联规则、SVM等算法。小规模使用过Caffe，正在学习TensorFlow。使用过Theano、Mahout、Spark ML。发表过两篇相关专利。
+    - skill3:
+      name: 并行并发
+      percentage: 80%
+      description: 源于Java多线程，运用于GPU高性能计算。了解锁机制、函数式编程、Actor、GPU SIMD等并发、并行编程模型。发表过一篇相关专利。
+    - skill4:
+      name: Hadoop
+      percentage: 70%
+      description: 理解HDFS、编写MapReduce。配置Hadoop环境并调优参数，阅读过部分代码。实现过TeraSort。有使用HBase、Hive、Pig、Flume、Sqoop等的经验。
+    - skill5:
+      name: Spark
+      percentage: 60%
+      description: 理解RDD。配置Spark环境，阅读过部分代码。实现过TeraSort。常用MLlib模块，使用过Streaming模块，对SQL模块也有过接触。
+    - skill6:
+      name: Mesos
+      percentage: 40%
+      description: 安装配置，结合Spark使用。阅读过allocator部分代码。
+    - skill7:
+      name: OpenStack
+      percentage: 60%
+      description: 有小规模安装配置经验，做过Horizon的二次开发，阅读过部分代码。
+    - skill8:
+      name: Docker
+      percentage: 70%
+      description: 有安装Kubernetes经验，目前开发环境全部基于Vagrant或Docker。熟练编写Dockerfile。
+    - skill9:
+      name: 数据库
+      percentage: 70%
+      description: 在IBM长期从事数据库相关工具的开发。MySQL、PostgreSQL、MongoDB等配置及简单调优。熟悉数据库建模，能掌握中等难度的SQL语句。
+  patents:
+    - patent1:
+      name: 数据处理方法及装置
+      office: CN
+      number: 201410415527
+      publication: CN104199790A
+    - patent2:
+      name: 一种聚合页面中数据模块的方法及装置
+      office: CN
+      number: 201510541196
+      publication: CN105159881A
+    - patent3:
+      name: 一种基于图像的用户动作标识区域确定方法及装置
+      office: CN
+      number: 201510146258
+      publication: CN104700096A
+    - patent4:
+      name: 一种终端数据展现方法和系统
+      office: CN
+      number: 201510149300
+      publication: CN104793933A
+    - patent5:
+      name: 一种浮点数处理方法及装置
+      office: CN
+      number: 201510629933
+      publication: CN105224283A
+    - patent6:
+      name: 一种浮点数处理方法及装置
+      office: CN
+      number: 201510629934
+      publication: CN105224284A
+    - patent7:
+      name: 多视角视频采集系统
+      office: CN
+      number: 201510727225
+      publication: CN105407297A
